@@ -15,7 +15,7 @@ int main() {
     cout<<" Enter the Operation you want to perform" <<endl;
     cin >> op;
 
-    switch( op ) {
+    switch(op){
 
         case '+':  cout << (a+b) <<endl; 
                   break;
@@ -35,7 +35,5 @@ int main() {
         default: cout << "Please enter a valid Operation " << endl;
 
     }
-  
-
     return 0;
 }
